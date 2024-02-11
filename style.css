@@ -1,0 +1,42 @@
+#bg {
+  background: url(bg.png);
+  width: 50vw;
+  height: 50vw;
+  background-size: 100%;
+  margin: auto;
+  border: 2px solid red;
+  position: relative;
+}
+#hour,
+#min,
+#sec {
+  position: absolute;
+  border-radius: 7px;
+  background: black;
+}
+
+#hour {
+  height: 26%;
+  width: 2%;
+  right: 49.1%;
+  top: 24%;
+  transform-origin: bottom;
+}
+
+#min {
+  height: 30%;
+  width: 1.5%;
+  right: 49.3%;
+  top: 20%;
+  transform-origin: bottom;
+}
+
+
+#sec {
+  height: 40%;
+  width: 1%;
+  right: 49.3%;
+  top: 10%;
+  transform-origin: bottom;
+}
+
